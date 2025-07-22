@@ -1,0 +1,11 @@
+F:\mahdi\Projects\New folder\Ticketly\Ticketly.Modules.Events.Domain\bin\Debug\net9.0\Ticketly.Modules.Events.Domain.deps.json
+F:\mahdi\Projects\New folder\Ticketly\Ticketly.Modules.Events.Domain\bin\Debug\net9.0\Ticketly.Modules.Events.Domain.dll
+F:\mahdi\Projects\New folder\Ticketly\Ticketly.Modules.Events.Domain\bin\Debug\net9.0\Ticketly.Modules.Events.Domain.pdb
+F:\mahdi\Projects\New folder\Ticketly\Ticketly.Modules.Events.Domain\obj\Debug\net9.0\Ticketly.Modules.Events.Domain.GeneratedMSBuildEditorConfig.editorconfig
+F:\mahdi\Projects\New folder\Ticketly\Ticketly.Modules.Events.Domain\obj\Debug\net9.0\Ticketly.Modules.Events.Domain.AssemblyInfoInputs.cache
+F:\mahdi\Projects\New folder\Ticketly\Ticketly.Modules.Events.Domain\obj\Debug\net9.0\Ticketly.Modules.Events.Domain.AssemblyInfo.cs
+F:\mahdi\Projects\New folder\Ticketly\Ticketly.Modules.Events.Domain\obj\Debug\net9.0\Ticketly.Modules.Events.Domain.csproj.CoreCompileInputs.cache
+F:\mahdi\Projects\New folder\Ticketly\Ticketly.Modules.Events.Domain\obj\Debug\net9.0\Ticketly.Modules.Events.Domain.dll
+F:\mahdi\Projects\New folder\Ticketly\Ticketly.Modules.Events.Domain\obj\Debug\net9.0\refint\Ticketly.Modules.Events.Domain.dll
+F:\mahdi\Projects\New folder\Ticketly\Ticketly.Modules.Events.Domain\obj\Debug\net9.0\Ticketly.Modules.Events.Domain.pdb
+F:\mahdi\Projects\New folder\Ticketly\Ticketly.Modules.Events.Domain\obj\Debug\net9.0\ref\Ticketly.Modules.Events.Domain.dll

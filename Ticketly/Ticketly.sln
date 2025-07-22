@@ -1,0 +1,79 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36221.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+		Directory.Build.props = Directory.Build.props
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Src", "Src", "{A38B2935-EE83-46AD-A5F9-1AC78F40C41C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "API", "API", "{760EDE95-4508-4319-9591-40535AC01A55}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Modules", "Modules", "{71CB3C2F-939C-4742-89F9-9E22B6CCDD2F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Events", "Events", "{5BB657AE-148D-429E-A757-1CECB26158C8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ticketly.Api", "Ticketly.Api\Ticketly.Api.csproj", "{C48715C2-B801-4155-9780-91E294F4B9CE}"
+EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{81DDED9D-158B-E303-5F62-77A2896D2A5A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ticketly.Modules.Events.Domain", "..\Ticketly.Modules.Events.Domain\Ticketly.Modules.Events.Domain.csproj", "{4B6D41D0-F7EE-4678-AE96-42737F31437D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ticketly.Modules.Events.Application", "..\Ticketly.Modules.Events.Application\Ticketly.Modules.Events.Application.csproj", "{D271E51D-5C2F-447A-838D-F181BD0B377D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ticketly.Modules.Events.Infrastructure", "..\Ticketly.Modules.Events.Infrastructure\Ticketly.Modules.Events.Infrastructure.csproj", "{3F890C7B-1AC8-43E8-9288-F0E08AB955D0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ticketly.Modules.Events.Presentation", "..\Ticketly.Modules.Events.Presentation\Ticketly.Modules.Events.Presentation.csproj", "{37BC2935-F4EB-4987-8463-4E9CADD0CD23}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C48715C2-B801-4155-9780-91E294F4B9CE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C48715C2-B801-4155-9780-91E294F4B9CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C48715C2-B801-4155-9780-91E294F4B9CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C48715C2-B801-4155-9780-91E294F4B9CE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{81DDED9D-158B-E303-5F62-77A2896D2A5A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{81DDED9D-158B-E303-5F62-77A2896D2A5A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{81DDED9D-158B-E303-5F62-77A2896D2A5A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{81DDED9D-158B-E303-5F62-77A2896D2A5A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4B6D41D0-F7EE-4678-AE96-42737F31437D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4B6D41D0-F7EE-4678-AE96-42737F31437D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4B6D41D0-F7EE-4678-AE96-42737F31437D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4B6D41D0-F7EE-4678-AE96-42737F31437D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D271E51D-5C2F-447A-838D-F181BD0B377D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D271E51D-5C2F-447A-838D-F181BD0B377D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D271E51D-5C2F-447A-838D-F181BD0B377D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D271E51D-5C2F-447A-838D-F181BD0B377D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3F890C7B-1AC8-43E8-9288-F0E08AB955D0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3F890C7B-1AC8-43E8-9288-F0E08AB955D0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3F890C7B-1AC8-43E8-9288-F0E08AB955D0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3F890C7B-1AC8-43E8-9288-F0E08AB955D0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{37BC2935-F4EB-4987-8463-4E9CADD0CD23}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{37BC2935-F4EB-4987-8463-4E9CADD0CD23}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{37BC2935-F4EB-4987-8463-4E9CADD0CD23}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{37BC2935-F4EB-4987-8463-4E9CADD0CD23}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{760EDE95-4508-4319-9591-40535AC01A55} = {A38B2935-EE83-46AD-A5F9-1AC78F40C41C}
+		{71CB3C2F-939C-4742-89F9-9E22B6CCDD2F} = {A38B2935-EE83-46AD-A5F9-1AC78F40C41C}
+		{5BB657AE-148D-429E-A757-1CECB26158C8} = {71CB3C2F-939C-4742-89F9-9E22B6CCDD2F}
+		{C48715C2-B801-4155-9780-91E294F4B9CE} = {760EDE95-4508-4319-9591-40535AC01A55}
+		{4B6D41D0-F7EE-4678-AE96-42737F31437D} = {5BB657AE-148D-429E-A757-1CECB26158C8}
+		{D271E51D-5C2F-447A-838D-F181BD0B377D} = {5BB657AE-148D-429E-A757-1CECB26158C8}
+		{3F890C7B-1AC8-43E8-9288-F0E08AB955D0} = {5BB657AE-148D-429E-A757-1CECB26158C8}
+		{37BC2935-F4EB-4987-8463-4E9CADD0CD23} = {5BB657AE-148D-429E-A757-1CECB26158C8}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3325C4E6-2428-4A4C-A767-663AFD34FE68}
+	EndGlobalSection
+EndGlobal

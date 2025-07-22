@@ -1,0 +1,25 @@
+version: '3.9'
+
+services:
+  ticketly.api:
+    image: ${DOCKER_REGISTRY-}ticketlyapi
+    container_name: Ticketly.Api
+    build:
+      context: .
+      dockerfile: Ticketly.Api/Dockerfile
+    ports: 
+      - 5000:8080
+      - 5001:8081
+
+  ticketly.database:
+    image: postgres:latest
+    container_name: Ticketly.Database
+    environment:
+      - POSTGRES_DB=evently
+      - POSTGRES_USER=postgres
+      - POSTGRES_PASSWORD=postgres
+    volumes:
+      - ./.containers/db:/var/lib/postgresql/data
+    ports:
+      - 5432:5432
+

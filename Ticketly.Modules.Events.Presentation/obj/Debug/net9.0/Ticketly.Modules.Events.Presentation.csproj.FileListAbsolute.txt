@@ -1,0 +1,17 @@
+F:\mahdi\Projects\New folder\Ticketly\Ticketly.Modules.Events.Presentation\obj\Debug\net9.0\Ticketly.Modules.Events.Presentation.csproj.AssemblyReference.cache
+F:\mahdi\Projects\New folder\Ticketly\Ticketly.Modules.Events.Presentation\obj\Debug\net9.0\Ticketly.Modules.Events.Presentation.GeneratedMSBuildEditorConfig.editorconfig
+F:\mahdi\Projects\New folder\Ticketly\Ticketly.Modules.Events.Presentation\obj\Debug\net9.0\Ticketly.Modules.Events.Presentation.AssemblyInfoInputs.cache
+F:\mahdi\Projects\New folder\Ticketly\Ticketly.Modules.Events.Presentation\obj\Debug\net9.0\Ticketly.Modules.Events.Presentation.AssemblyInfo.cs
+F:\mahdi\Projects\New folder\Ticketly\Ticketly.Modules.Events.Presentation\obj\Debug\net9.0\Ticketly.Modules.Events.Presentation.csproj.CoreCompileInputs.cache
+F:\mahdi\Projects\New folder\Ticketly\Ticketly.Modules.Events.Presentation\bin\Debug\net9.0\Ticketly.Modules.Events.Presentation.deps.json
+F:\mahdi\Projects\New folder\Ticketly\Ticketly.Modules.Events.Presentation\bin\Debug\net9.0\Ticketly.Modules.Events.Presentation.dll
+F:\mahdi\Projects\New folder\Ticketly\Ticketly.Modules.Events.Presentation\bin\Debug\net9.0\Ticketly.Modules.Events.Presentation.pdb
+F:\mahdi\Projects\New folder\Ticketly\Ticketly.Modules.Events.Presentation\bin\Debug\net9.0\Ticketly.Modules.Events.Application.dll
+F:\mahdi\Projects\New folder\Ticketly\Ticketly.Modules.Events.Presentation\bin\Debug\net9.0\Ticketly.Modules.Events.Domain.dll
+F:\mahdi\Projects\New folder\Ticketly\Ticketly.Modules.Events.Presentation\bin\Debug\net9.0\Ticketly.Modules.Events.Application.pdb
+F:\mahdi\Projects\New folder\Ticketly\Ticketly.Modules.Events.Presentation\bin\Debug\net9.0\Ticketly.Modules.Events.Domain.pdb
+F:\mahdi\Projects\New folder\Ticketly\Ticketly.Modules.Events.Presentation\obj\Debug\net9.0\Ticketly.66337E16.Up2Date
+F:\mahdi\Projects\New folder\Ticketly\Ticketly.Modules.Events.Presentation\obj\Debug\net9.0\Ticketly.Modules.Events.Presentation.dll
+F:\mahdi\Projects\New folder\Ticketly\Ticketly.Modules.Events.Presentation\obj\Debug\net9.0\refint\Ticketly.Modules.Events.Presentation.dll
+F:\mahdi\Projects\New folder\Ticketly\Ticketly.Modules.Events.Presentation\obj\Debug\net9.0\Ticketly.Modules.Events.Presentation.pdb
+F:\mahdi\Projects\New folder\Ticketly\Ticketly.Modules.Events.Presentation\obj\Debug\net9.0\ref\Ticketly.Modules.Events.Presentation.dll

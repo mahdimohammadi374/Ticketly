@@ -1,0 +1,5 @@
+F:\mahdi\Projects\New folder\Ticketly\Ticketly.Modules.Events.Infrastructure\obj\Release\net9.0\Ticketly.Modules.Events.Infrastructure.csproj.AssemblyReference.cache
+F:\mahdi\Projects\New folder\Ticketly\Ticketly.Modules.Events.Infrastructure\obj\Release\net9.0\Ticketly.Modules.Events.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+F:\mahdi\Projects\New folder\Ticketly\Ticketly.Modules.Events.Infrastructure\obj\Release\net9.0\Ticketly.Modules.Events.Infrastructure.AssemblyInfoInputs.cache
+F:\mahdi\Projects\New folder\Ticketly\Ticketly.Modules.Events.Infrastructure\obj\Release\net9.0\Ticketly.Modules.Events.Infrastructure.AssemblyInfo.cs
+F:\mahdi\Projects\New folder\Ticketly\Ticketly.Modules.Events.Infrastructure\obj\Release\net9.0\Ticketly.Modules.Events.Infrastructure.csproj.CoreCompileInputs.cache

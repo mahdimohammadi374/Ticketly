@@ -33,6 +33,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ticketly.Modules.Events.Inf
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ticketly.Modules.Events.Presentation", "src\Modules\Ticketly.Modules.Events.Presentation\Ticketly.Modules.Events.Presentation.csproj", "{3292CBA2-7789-629A-BF91-A209CB79B29A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ticketly.Common.Domain", "src\Common\Ticketly.Common.Domain\Ticketly.Common.Domain.csproj", "{808A0A6D-2697-F41F-00B4-956D3C65808E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -67,6 +69,10 @@ Global
 		{3292CBA2-7789-629A-BF91-A209CB79B29A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3292CBA2-7789-629A-BF91-A209CB79B29A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3292CBA2-7789-629A-BF91-A209CB79B29A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{808A0A6D-2697-F41F-00B4-956D3C65808E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{808A0A6D-2697-F41F-00B4-956D3C65808E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{808A0A6D-2697-F41F-00B4-956D3C65808E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{808A0A6D-2697-F41F-00B4-956D3C65808E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -82,6 +88,7 @@ Global
 		{369ADFDA-01DC-4553-4FA3-FD8F90CC3E4F} = {5BB657AE-148D-429E-A757-1CECB26158C8}
 		{3742E836-74D2-8295-5FC2-533B5CF293D5} = {5BB657AE-148D-429E-A757-1CECB26158C8}
 		{3292CBA2-7789-629A-BF91-A209CB79B29A} = {5BB657AE-148D-429E-A757-1CECB26158C8}
+		{808A0A6D-2697-F41F-00B4-956D3C65808E} = {BFA7CF86-9312-4D85-954D-9B07FBD05D7A}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {3325C4E6-2428-4A4C-A767-663AFD34FE68}

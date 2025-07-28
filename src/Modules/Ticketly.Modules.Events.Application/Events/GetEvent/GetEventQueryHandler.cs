@@ -1,13 +1,8 @@
-﻿using Dapper;
-using MediatR;
-using System;
-using System.Collections.Generic;
-using System.Data.Common;
-using System.Threading;
-using System.Threading.Tasks;
-using Ticketly.Modules.Events.Application.Abstractions.Data;
-using Ticketly.Modules.Events.Application.Abstractions.Messaging;
-using Ticketly.Modules.Events.Domain.Abstractions;
+﻿using System.Data.Common;
+using Dapper;
+using Ticketly.Common.Application.Data;
+using Ticketly.Common.Application.Messaging;
+using Ticketly.Common.Domain;
 using Ticketly.Modules.Events.Domain.Events;
 
 namespace Ticketly.Modules.Events.Application.Events.GetEvent;

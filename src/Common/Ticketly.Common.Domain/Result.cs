@@ -1,7 +1,6 @@
-﻿using System;
-using System.Diagnostics.CodeAnalysis;
+﻿using System.Diagnostics.CodeAnalysis;
 
-namespace Ticketly.Modules.Events.Domain.Abstractions;
+namespace Ticketly.Common.Domain;
 
 public class Result
 {

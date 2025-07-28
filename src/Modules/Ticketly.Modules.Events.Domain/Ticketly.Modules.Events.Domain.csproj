@@ -3,4 +3,8 @@
 	<PropertyGroup>
 		<TargetFramework>net9.0</TargetFramework>
 	</PropertyGroup>
+
+	<ItemGroup>
+	  <ProjectReference Include="..\..\Common\Ticketly.Common.Domain\Ticketly.Common.Domain.csproj" />
+	</ItemGroup>
 </Project>

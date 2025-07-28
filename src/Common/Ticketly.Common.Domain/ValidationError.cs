@@ -1,7 +1,4 @@
-﻿using System.Collections.Generic;
-using System.Linq;
-
-namespace Ticketly.Modules.Events.Domain.Abstractions;
+﻿namespace Ticketly.Common.Domain;
 
 public sealed record ValidationError : Error
 {

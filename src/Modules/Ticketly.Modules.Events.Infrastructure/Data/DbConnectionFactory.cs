@@ -1,7 +1,7 @@
 ﻿using Npgsql;
 using System.Data.Common;
 using System.Threading.Tasks;
-using Ticketly.Modules.Events.Application.Abstractions.Data;
+using Ticketly.Common.Application.Data;
 
 namespace Ticketly.Modules.Events.Infrastructure.Data;
 

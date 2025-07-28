@@ -1,10 +1,7 @@
-﻿using System;
-using System.Threading;
-using System.Threading.Tasks;
-using Ticketly.Modules.Events.Application.Abstractions.Clock;
+﻿using Ticketly.Common.Application.Clock;
+using Ticketly.Common.Application.Messaging;
+using Ticketly.Common.Domain;
 using Ticketly.Modules.Events.Application.Abstractions.Data;
-using Ticketly.Modules.Events.Application.Abstractions.Messaging;
-using Ticketly.Modules.Events.Domain.Abstractions;
 using Ticketly.Modules.Events.Domain.Categories;
 using Ticketly.Modules.Events.Domain.Events;
 

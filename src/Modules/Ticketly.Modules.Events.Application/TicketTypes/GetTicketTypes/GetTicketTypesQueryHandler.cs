@@ -1,12 +1,9 @@
 ﻿using System.Data.Common;
 using Dapper;
-using Ticketly.Modules.Events.Application.Abstractions.Data;
-using Ticketly.Modules.Events.Domain.Abstractions;
+using Ticketly.Common.Application.Data;
+using Ticketly.Common.Application.Messaging;
+using Ticketly.Common.Domain;
 using Ticketly.Modules.Events.Application.TicketTypes.GetTicketType;
-using System.Threading.Tasks;
-using System.Threading;
-using System.Collections.Generic;
-using Ticketly.Modules.Events.Application.Abstractions.Messaging;
 
 namespace Ticketly.Modules.Events.Application.TicketTypes.GetTicketTypes;
 

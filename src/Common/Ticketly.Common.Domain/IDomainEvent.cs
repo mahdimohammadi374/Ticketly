@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Ticketly.Modules.Events.Domain.Abstractions;
+namespace Ticketly.Common.Domain;
 
 public interface IDomainEvent
 {

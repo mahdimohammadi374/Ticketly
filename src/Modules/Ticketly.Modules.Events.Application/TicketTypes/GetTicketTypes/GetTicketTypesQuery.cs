@@ -1,6 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using Ticketly.Modules.Events.Application.Abstractions.Messaging;
+﻿using Ticketly.Common.Application.Messaging;
 using Ticketly.Modules.Events.Application.TicketTypes.GetTicketType;
 
 namespace Ticketly.Modules.Events.Application.TicketTypes.GetTicketTypes;

@@ -1,7 +1,4 @@
-﻿using System.Collections.Generic;
-using System.Linq;
-
-namespace Ticketly.Modules.Events.Domain.Abstractions;
+﻿namespace Ticketly.Common.Domain;
 
 public abstract class Entity
 {
@@ -16,7 +13,7 @@ public abstract class Entity
     {
         _domainEvents.Clear();
     }
-     protected void Raise(IDomainEvent domainEvent)
+    protected void Raise(IDomainEvent domainEvent)
     {
         _domainEvents.Add(domainEvent);
     }

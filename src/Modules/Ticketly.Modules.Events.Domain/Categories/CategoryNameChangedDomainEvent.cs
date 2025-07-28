@@ -1,6 +1,4 @@
-﻿
-using System;
-using Ticketly.Modules.Events.Domain.Abstractions;
+﻿using Ticketly.Common.Domain;
 
 namespace Ticketly.Modules.Events.Domain.Categories;
 
@@ -8,5 +6,5 @@ public sealed class CategoryNameChangedDomainEvent(Guid categoryId, string name)
 {
     public Guid CategoryId { get; init; } = categoryId;
 
-    public string Name { get; init;  } = name;
+    public string Name { get; init; } = name;
 }

@@ -1,6 +1,4 @@
-﻿using System;
-
-namespace Ticketly.Modules.Events.Domain.Abstractions;
+﻿namespace Ticketly.Common.Domain;
 
 public abstract class DomainEvent : IDomainEvent
 {

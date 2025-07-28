@@ -1,7 +1,7 @@
-﻿using Ticketly.Modules.Events.Domain.Abstractions;
+﻿using Ticketly.Common.Domain;
 using MediatR;
 
-namespace Ticketly.Modules.Events.Application.Abstractions.Messaging;
+namespace Ticketly.Common.Application.Messaging;
 
 public interface ICommand : IRequest<Result>, IBaseCommand;
 

@@ -6,7 +6,7 @@ using System;
 using System.Collections.Generic;
 using Ticketly.Modules.Events.Application.TicketTypes.GetTicketType;
 using Ticketly.Modules.Events.Application.TicketTypes.GetTicketTypes;
-using Ticketly.Modules.Events.Domain.Abstractions;
+using Ticketly.Common.Domain;
 using Ticketly.Modules.Events.Presentation.ApiResults;
 
 namespace Ticketly.Modules.Events.Presentation.TicketTypes;

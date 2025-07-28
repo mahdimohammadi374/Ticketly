@@ -1,5 +1,4 @@
-﻿using System.Collections.Generic;
-using Ticketly.Modules.Events.Application.Abstractions.Messaging;
+﻿using Ticketly.Common.Application.Messaging;
 using Ticketly.Modules.Events.Application.Categories.GetCategory;
 
 namespace Ticketly.Modules.Events.Application.Categories.GetCategories;

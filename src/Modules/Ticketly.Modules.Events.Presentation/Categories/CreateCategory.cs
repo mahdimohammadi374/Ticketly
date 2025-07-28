@@ -4,7 +4,7 @@ using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Routing;
 using System;
 using Ticketly.Modules.Events.Application.Categories.CreateCategory;
-using Ticketly.Modules.Events.Domain.Abstractions;
+using Ticketly.Common.Domain;
 using Ticketly.Modules.Events.Presentation.ApiResults;
 
 namespace Ticketly.Modules.Events.Presentation.Categories;

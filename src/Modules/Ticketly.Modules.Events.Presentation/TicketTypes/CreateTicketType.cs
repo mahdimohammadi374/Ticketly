@@ -1,5 +1,5 @@
 ﻿using Ticketly.Modules.Events.Application.TicketTypes.CreateTicketType;
-using Ticketly.Modules.Events.Domain.Abstractions;
+using Ticketly.Common.Domain;
 using Ticketly.Modules.Events.Presentation.ApiResults;
 using MediatR;
 using Microsoft.AspNetCore.Builder;

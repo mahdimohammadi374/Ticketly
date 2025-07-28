@@ -1,7 +1,6 @@
 ﻿using Microsoft.AspNetCore.Http;
-using System;
-using System.Collections.Generic;
-using Ticketly.Modules.Events.Domain.Abstractions;
+
+using Ticketly.Common.Domain;
 
 namespace Ticketly.Modules.Events.Presentation.ApiResults;
 

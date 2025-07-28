@@ -5,7 +5,7 @@ using Microsoft.AspNetCore.Routing;
 using System;
 using Ticketly.Modules.Events.Application.Events;
 using Ticketly.Modules.Events.Application.Events.GetEvent;
-using Ticketly.Modules.Events.Domain.Abstractions;
+using Ticketly.Common.Domain;
 using Ticketly.Modules.Events.Presentation.ApiResults;
 
 namespace Ticketly.Modules.Events.Presentation.Events;

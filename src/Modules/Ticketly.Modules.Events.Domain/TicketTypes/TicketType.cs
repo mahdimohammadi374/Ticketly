@@ -1,5 +1,4 @@
-﻿using System;
-using Ticketly.Modules.Events.Domain.Abstractions;
+﻿using Ticketly.Common.Domain;
 using Ticketly.Modules.Events.Domain.Events;
 
 namespace Ticketly.Modules.Events.Domain.TicketTypes;

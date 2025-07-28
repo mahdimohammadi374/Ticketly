@@ -1,4 +1,5 @@
 ﻿using Microsoft.EntityFrameworkCore;
+
 using Ticketly.Modules.Events.Application.Abstractions.Data;
 using Ticketly.Modules.Events.Domain.Categories;
 using Ticketly.Modules.Events.Domain.Events;
@@ -7,7 +8,7 @@ using Ticketly.Modules.Events.Infrastructure.Events;
 using Ticketly.Modules.Events.Infrastructure.TicketTypes;
 
 namespace Ticketly.Modules.Events.Infrastructure.Database;
-public sealed class EventsDbContext(DbContextOptions<EventsDbContext> options) : DbContext(options),IUnitOfWork
+public sealed class EventsDbContext(DbContextOptions<EventsDbContext> options) : DbContext(options), IUnitOfWork
 {
     internal DbSet<Event> Events { get; set; }
 

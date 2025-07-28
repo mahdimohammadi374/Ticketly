@@ -1,6 +1,4 @@
-﻿using System;
-using System.Net.Http.Headers;
-using Ticketly.Modules.Events.Domain.Abstractions;
+﻿using Ticketly.Common.Domain;
 using Ticketly.Modules.Events.Domain.Categories;
 
 namespace Ticketly.Modules.Events.Domain.Events;

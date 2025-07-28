@@ -1,11 +1,8 @@
-﻿using Ticketly.Modules.Events.Application.Abstractions.Data;
-using Ticketly.Modules.Events.Domain.Abstractions;
+﻿using Ticketly.Common.Application.Messaging;
+using Ticketly.Common.Domain;
+using Ticketly.Modules.Events.Application.Abstractions.Data;
 using Ticketly.Modules.Events.Domain.Events;
 using Ticketly.Modules.Events.Domain.TicketTypes;
-using System.Threading;
-using System.Threading.Tasks;
-using System;
-using Ticketly.Modules.Events.Application.Abstractions.Messaging;
 
 namespace Ticketly.Modules.Events.Application.TicketTypes.CreateTicketType;
 

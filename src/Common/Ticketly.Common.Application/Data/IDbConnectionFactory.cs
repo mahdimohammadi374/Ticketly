@@ -1,7 +1,6 @@
 ﻿using System.Data.Common;
-using System.Threading.Tasks;
 
-namespace Ticketly.Modules.Events.Application.Abstractions.Data;
+namespace Ticketly.Common.Application.Data;
 
 public interface IDbConnectionFactory
 {

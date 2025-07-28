@@ -1,4 +1,4 @@
-﻿namespace Ticketly.Modules.Events.Domain.Abstractions;
+﻿namespace Ticketly.Common.Domain;
 
 public record Error
 {

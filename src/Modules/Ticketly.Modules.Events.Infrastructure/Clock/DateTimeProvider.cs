@@ -1,5 +1,5 @@
 ﻿using System;
-using Ticketly.Modules.Events.Application.Abstractions.Clock;
+using Ticketly.Common.Application.Clock;
 
 namespace Ticketly.Modules.Events.Infrastructure.Clock;
 

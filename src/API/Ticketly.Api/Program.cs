@@ -5,10 +5,12 @@ using Ticketly.Common.Infrastructure;
 WebApplicationBuilder builder = WebApplication.CreateBuilder(args);
 
 builder.Services.AddOpenApi();
-
+ 
 builder.Services.AddApplication([Ticketly.Modules.Events.Application.AssemblyReference.Assembly]);
 
 builder.Services.AddInfrastructure(builder.Configuration.GetConnectionString("Database")!);
+
+builder.Configuration.AddModuleConfiguration(["events"]);
 
 builder.Services.AddEventsModule(builder.Configuration);
 

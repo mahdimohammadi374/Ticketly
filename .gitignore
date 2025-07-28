@@ -1,0 +1,21 @@
+# Build and IDE folders
+.vs/
+bin/
+obj/
+
+# User-specific files
+*.user
+*.suo
+
+# PostgreSQL container data
+.containers/db/
+
+# OS files
+Thumbs.db
+.DS_Store
+
+# Rider/JetBrains
+.idea/
+
+# Logs
+*.log

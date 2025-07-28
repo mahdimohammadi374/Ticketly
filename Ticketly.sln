@@ -1,0 +1,89 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36221.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+		Directory.Build.props = Directory.Build.props
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Src", "Src", "{A38B2935-EE83-46AD-A5F9-1AC78F40C41C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "API", "API", "{760EDE95-4508-4319-9591-40535AC01A55}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Modules", "Modules", "{71CB3C2F-939C-4742-89F9-9E22B6CCDD2F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Events", "Events", "{5BB657AE-148D-429E-A757-1CECB26158C8}"
+EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{81DDED9D-158B-E303-5F62-77A2896D2A5A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Common", "Common", "{BFA7CF86-9312-4D85-954D-9B07FBD05D7A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ticketly.Api", "src\API\Ticketly.Api\Ticketly.Api.csproj", "{5B68F94A-90A6-0002-F8BA-62AA8A022009}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ticketly.Common.Application", "src\Common\Ticketly.Common.Application\Ticketly.Common.Application.csproj", "{46059FD3-FE97-C179-8DA0-83C385E4FDA4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ticketly.Modules.Events.Application", "src\Modules\Ticketly.Modules.Events.Application\Ticketly.Modules.Events.Application.csproj", "{4FBEA090-66CB-C68E-BDDB-4CEF46C7FD6C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ticketly.Modules.Events.Domain", "src\Modules\Ticketly.Modules.Events.Domain\Ticketly.Modules.Events.Domain.csproj", "{369ADFDA-01DC-4553-4FA3-FD8F90CC3E4F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ticketly.Modules.Events.Infrastructure", "src\Modules\Ticketly.Modules.Events.Infrastructure\Ticketly.Modules.Events.Infrastructure.csproj", "{3742E836-74D2-8295-5FC2-533B5CF293D5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ticketly.Modules.Events.Presentation", "src\Modules\Ticketly.Modules.Events.Presentation\Ticketly.Modules.Events.Presentation.csproj", "{3292CBA2-7789-629A-BF91-A209CB79B29A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{81DDED9D-158B-E303-5F62-77A2896D2A5A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{81DDED9D-158B-E303-5F62-77A2896D2A5A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{81DDED9D-158B-E303-5F62-77A2896D2A5A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{81DDED9D-158B-E303-5F62-77A2896D2A5A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5B68F94A-90A6-0002-F8BA-62AA8A022009}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5B68F94A-90A6-0002-F8BA-62AA8A022009}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5B68F94A-90A6-0002-F8BA-62AA8A022009}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5B68F94A-90A6-0002-F8BA-62AA8A022009}.Release|Any CPU.Build.0 = Release|Any CPU
+		{46059FD3-FE97-C179-8DA0-83C385E4FDA4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{46059FD3-FE97-C179-8DA0-83C385E4FDA4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{46059FD3-FE97-C179-8DA0-83C385E4FDA4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{46059FD3-FE97-C179-8DA0-83C385E4FDA4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4FBEA090-66CB-C68E-BDDB-4CEF46C7FD6C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4FBEA090-66CB-C68E-BDDB-4CEF46C7FD6C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4FBEA090-66CB-C68E-BDDB-4CEF46C7FD6C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4FBEA090-66CB-C68E-BDDB-4CEF46C7FD6C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{369ADFDA-01DC-4553-4FA3-FD8F90CC3E4F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{369ADFDA-01DC-4553-4FA3-FD8F90CC3E4F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{369ADFDA-01DC-4553-4FA3-FD8F90CC3E4F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{369ADFDA-01DC-4553-4FA3-FD8F90CC3E4F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3742E836-74D2-8295-5FC2-533B5CF293D5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3742E836-74D2-8295-5FC2-533B5CF293D5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3742E836-74D2-8295-5FC2-533B5CF293D5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3742E836-74D2-8295-5FC2-533B5CF293D5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3292CBA2-7789-629A-BF91-A209CB79B29A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3292CBA2-7789-629A-BF91-A209CB79B29A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3292CBA2-7789-629A-BF91-A209CB79B29A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3292CBA2-7789-629A-BF91-A209CB79B29A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{760EDE95-4508-4319-9591-40535AC01A55} = {A38B2935-EE83-46AD-A5F9-1AC78F40C41C}
+		{71CB3C2F-939C-4742-89F9-9E22B6CCDD2F} = {A38B2935-EE83-46AD-A5F9-1AC78F40C41C}
+		{5BB657AE-148D-429E-A757-1CECB26158C8} = {71CB3C2F-939C-4742-89F9-9E22B6CCDD2F}
+		{BFA7CF86-9312-4D85-954D-9B07FBD05D7A} = {A38B2935-EE83-46AD-A5F9-1AC78F40C41C}
+		{5B68F94A-90A6-0002-F8BA-62AA8A022009} = {760EDE95-4508-4319-9591-40535AC01A55}
+		{46059FD3-FE97-C179-8DA0-83C385E4FDA4} = {BFA7CF86-9312-4D85-954D-9B07FBD05D7A}
+		{4FBEA090-66CB-C68E-BDDB-4CEF46C7FD6C} = {5BB657AE-148D-429E-A757-1CECB26158C8}
+		{369ADFDA-01DC-4553-4FA3-FD8F90CC3E4F} = {5BB657AE-148D-429E-A757-1CECB26158C8}
+		{3742E836-74D2-8295-5FC2-533B5CF293D5} = {5BB657AE-148D-429E-A757-1CECB26158C8}
+		{3292CBA2-7789-629A-BF91-A209CB79B29A} = {5BB657AE-148D-429E-A757-1CECB26158C8}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3325C4E6-2428-4A4C-A767-663AFD34FE68}
+	EndGlobalSection
+EndGlobal

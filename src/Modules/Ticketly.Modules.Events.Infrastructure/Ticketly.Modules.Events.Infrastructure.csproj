@@ -1,0 +1,16 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+	<PropertyGroup>
+		<TargetFramework>net9.0</TargetFramework>
+	</PropertyGroup>
+	<ItemGroup>
+		<PackageReference Include="EFCore.NamingConventions" Version="9.0.0" />
+		<PackageReference Include="Npgsql.EntityFrameworkCore.PostgreSQL" Version="9.0.4" />
+	</ItemGroup>
+	<ItemGroup>
+	  <ProjectReference Include="..\..\Common\Ticketly.Common.Application\Ticketly.Common.Application.csproj" />
+	  <ProjectReference Include="..\Ticketly.Modules.Events.Application\Ticketly.Modules.Events.Application.csproj" />
+	  <ProjectReference Include="..\Ticketly.Modules.Events.Presentation\Ticketly.Modules.Events.Presentation.csproj" />
+	</ItemGroup>
+
+
+</Project>

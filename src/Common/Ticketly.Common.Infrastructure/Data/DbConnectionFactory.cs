@@ -1,9 +1,11 @@
 ﻿using Npgsql;
+
 using System.Data.Common;
 using System.Threading.Tasks;
+
 using Ticketly.Common.Application.Data;
 
-namespace Ticketly.Modules.Events.Infrastructure.Data;
+namespace Ticketly.Common.Infrastructure.Data;
 
 internal sealed class DbConnectionFactory(NpgsqlDataSource dataSource) : IDbConnectionFactory
 {

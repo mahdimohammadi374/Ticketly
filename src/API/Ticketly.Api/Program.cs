@@ -2,7 +2,10 @@ using Ticketly.Api.Extensions;
 using Ticketly.Modules.Events.Infrastructure;
 using Ticketly.Common.Application;
 using Ticketly.Common.Infrastructure;
+using Serilog;
 WebApplicationBuilder builder = WebApplication.CreateBuilder(args);
+
+builder.Host.UseSerilog((context, loggerConfig) => loggerConfig.ReadFrom.Configuration(context.Configuration));
 
 builder.Services.AddOpenApi();
  
@@ -25,5 +28,7 @@ if (app.Environment.IsDevelopment())
 }
 
 EventsModule.MapEndpoints(app);
+
+app.UseSerilogRequestLogging();
 
 await app.RunAsync();

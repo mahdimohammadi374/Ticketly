@@ -1,8 +1,12 @@
-﻿using Evently.Common.Application.Behaviors;
+﻿using System.Reflection;
+
+using Evently.Common.Application.Behaviors;
 
 using FluentValidation;
+
 using Microsoft.Extensions.DependencyInjection;
-using System.Reflection;
+
+using Ticketly.Common.Application.Behaviors;
 
 namespace Ticketly.Common.Application;
 
@@ -14,6 +18,7 @@ public static class ApplicationConfiguration
         {
             config.RegisterServicesFromAssemblies(moduleAssemblies);
 
+            config.AddOpenBehavior(typeof(ExceptionHandlingPipelineBehavior<,>)); 
             config.AddOpenBehavior(typeof(RequestLoggingPipelineBehavior<,>));
         });
 

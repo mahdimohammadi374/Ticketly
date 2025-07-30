@@ -33,3 +33,10 @@ services:
       - 5341:5341
       - 8082:80 
 
+  ticketly.redis:
+    image: redis:latest
+    container_name: Ticketly.Redis
+    restart: always
+    ports:
+      - 6379:6379
+

@@ -1,17 +1,21 @@
-﻿using Ticketly.Modules.Events.Application.TicketTypes.CreateTicketType;
-using Ticketly.Common.Domain;
-using Ticketly.Modules.Events.Presentation.ApiResults;
+﻿using System;
+
 using MediatR;
+
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Routing;
-using System;
+
+using Ticketly.common.Presentation.ApiResults;
+using Ticketly.common.Presentation.Endpoints;
+using Ticketly.Common.Domain;
+using Ticketly.Modules.Events.Application.TicketTypes.CreateTicketType;
 
 namespace Ticketly.Modules.Events.Presentation.TicketTypes;
 
-internal static class CreateTicketType
+internal class CreateTicketType : IEndpoint
 {
-    public static void MapEndpoint(IEndpointRouteBuilder app)
+    public void MapEndpoint(IEndpointRouteBuilder app)
     {
         app.MapPost("ticket-types", async (Request request, ISender sender) =>
         {
@@ -22,7 +26,7 @@ internal static class CreateTicketType
                 request.Currency,
                 request.Quantity));
 
-            return result.Match(Results.Ok, ApiResults.ApiResults.Problem);
+            return result.Match(Results.Ok, common.Presentation.ApiResults.ApiResults.Problem);
         })
         .WithTags(Tags.TicketTypes);
     }

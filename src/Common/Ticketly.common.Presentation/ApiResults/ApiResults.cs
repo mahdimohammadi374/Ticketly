@@ -2,7 +2,7 @@
 
 using Ticketly.Common.Domain;
 
-namespace Ticketly.Modules.Events.Presentation.ApiResults;
+namespace Ticketly.common.Presentation.ApiResults;
 
 public static class ApiResults
 {

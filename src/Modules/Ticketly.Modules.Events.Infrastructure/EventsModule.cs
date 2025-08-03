@@ -1,9 +1,9 @@
-﻿using Microsoft.AspNetCore.Routing;
-using Microsoft.EntityFrameworkCore;
+﻿using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 
+using Ticketly.common.Presentation.Endpoints;
 using Ticketly.Modules.Events.Application.Abstractions.Data;
 using Ticketly.Modules.Events.Domain.Categories;
 using Ticketly.Modules.Events.Domain.Events;
@@ -12,19 +12,11 @@ using Ticketly.Modules.Events.Infrastructure.Categories;
 using Ticketly.Modules.Events.Infrastructure.Database;
 using Ticketly.Modules.Events.Infrastructure.Events;
 using Ticketly.Modules.Events.Infrastructure.TicketTypes;
-using Ticketly.Modules.Events.Presentation.Categories;
-using Ticketly.Modules.Events.Presentation.Events;
-using Ticketly.Modules.Events.Presentation.TicketTypes;
 
 namespace Ticketly.Modules.Events.Infrastructure;
 public static class EventsModule
 {
-    public static void MapEndpoints(IEndpointRouteBuilder app)
-    {
-        TicketTypeEndpoints.MapEndpoints(app);
-        CategoryEndpoints.MapEndpoints(app);
-        EventEndpoints.MapEndPoints(app);
-    }
+
 
     public static IServiceCollection AddEventsModule(
         this IServiceCollection services,
@@ -32,7 +24,7 @@ public static class EventsModule
         )
     {
         services.AddInfrastructure(configuration);
-
+        services.AddEndpoint(Presentation.AssemblyReference.Assembly);
         return services;
     }
 

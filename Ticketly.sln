@@ -37,6 +37,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ticketly.Common.Domain", "s
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ticketly.Common.Infrastructure", "src\Common\Ticketly.Common.Infrastructure\Ticketly.Common.Infrastructure.csproj", "{8279FC89-5B4B-4DFB-94EE-05E9CAE85098}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ticketly.common.Presentation", "src\Common\Ticketly.common.Presentation\Ticketly.common.Presentation.csproj", "{814D47E4-C62F-43E8-8E76-EE99DFDC9B21}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -79,6 +81,10 @@ Global
 		{8279FC89-5B4B-4DFB-94EE-05E9CAE85098}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8279FC89-5B4B-4DFB-94EE-05E9CAE85098}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8279FC89-5B4B-4DFB-94EE-05E9CAE85098}.Release|Any CPU.Build.0 = Release|Any CPU
+		{814D47E4-C62F-43E8-8E76-EE99DFDC9B21}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{814D47E4-C62F-43E8-8E76-EE99DFDC9B21}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{814D47E4-C62F-43E8-8E76-EE99DFDC9B21}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{814D47E4-C62F-43E8-8E76-EE99DFDC9B21}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -96,6 +102,7 @@ Global
 		{3292CBA2-7789-629A-BF91-A209CB79B29A} = {5BB657AE-148D-429E-A757-1CECB26158C8}
 		{808A0A6D-2697-F41F-00B4-956D3C65808E} = {BFA7CF86-9312-4D85-954D-9B07FBD05D7A}
 		{8279FC89-5B4B-4DFB-94EE-05E9CAE85098} = {BFA7CF86-9312-4D85-954D-9B07FBD05D7A}
+		{814D47E4-C62F-43E8-8E76-EE99DFDC9B21} = {BFA7CF86-9312-4D85-954D-9B07FBD05D7A}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {3325C4E6-2428-4A4C-A767-663AFD34FE68}

@@ -1,23 +1,27 @@
-﻿using MediatR;
+﻿using System;
+
+using MediatR;
+
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Routing;
-using System;
+
+using Ticketly.common.Presentation.ApiResults;
+using Ticketly.common.Presentation.Endpoints;
+using Ticketly.Common.Domain;
 using Ticketly.Modules.Events.Application.Events;
 using Ticketly.Modules.Events.Application.Events.GetEvent;
-using Ticketly.Common.Domain;
-using Ticketly.Modules.Events.Presentation.ApiResults;
 
 namespace Ticketly.Modules.Events.Presentation.Events;
-internal static class GetEvent
+internal class GetEvent : IEndpoint
 {
-    public static void MapEndpoint(IEndpointRouteBuilder app)
+    public void MapEndpoint(IEndpointRouteBuilder app)
     {
         app.MapGet("events/{id}", async (Guid id, ISender sender) =>
         {
             Result<EventResponse> result = await sender.Send(new GetEventQuery(id));
 
-            return result.Match(Results.Ok, ApiResults.ApiResults.Problem);
+            return result.Match(Results.Ok, common.Presentation.ApiResults.ApiResults.Problem);
         })
         .WithTags(Tags.Events);
     }
